@@ -1,5 +1,5 @@
-import NavLogo from './images/logo.png';
-import './styles/nav-bar.css';
+import NavLogo from '../images/logo.png';
+import '../styles/nav-bar.css';
 function NavBar() {
     return(
         <nav className="navbar navbar-expand-lg" id='navBar'>
