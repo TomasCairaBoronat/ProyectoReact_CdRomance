@@ -1,7 +1,9 @@
 import './styles/App.css';
+import NavBar from './components/nav-bar.js';
 
 function App() {
-  return (
+  return <>
+    <NavBar/>
     <div className="App">
       <header className="App-header">
         <h1>Cd Romance</h1>
@@ -10,7 +12,7 @@ function App() {
         </p>
       </header>
     </div>
-  );
+    </>;
 }
 
 export default App;
