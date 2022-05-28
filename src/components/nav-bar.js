@@ -1,4 +1,5 @@
 import NavLogo from '../images/logo.png';
+import CartWidget from './CartWidget.js';
 import '../styles/nav-bar.css';
 function NavBar() {
     return(
@@ -22,6 +23,7 @@ function NavBar() {
               </ul>
             </div>
           </div>
+          <CartWidget/>
         </nav>
     );
 }
