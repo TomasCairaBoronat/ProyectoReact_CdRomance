@@ -1,6 +1,6 @@
 import './styles/App.css';
 import NavBar from './components/nav-bar.js';
-
+import ItemListContainer from './components/ItemListContainer.js'
 function App() {
   return <>
     <NavBar/>
@@ -12,6 +12,10 @@ function App() {
         </p>
       </header>
     </div>
+    <main>
+      <h2 className='container-fluid'><u>Our latest games</u></h2>
+      <ItemListContainer/>
+    </main>
     </>;
 }
 
