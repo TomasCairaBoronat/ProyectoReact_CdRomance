@@ -1,7 +1,7 @@
 import '../styles/ItemListContainer.css'
-function ItemListContainer(){
+function ItemListContainer({greeting}){
     return(
-        <h3 className="tba">Soon you'll see the best games we have to offer :)</h3>
+        <h3 className='tba'>{greeting}</h3>
     )
 }
 export default ItemListContainer

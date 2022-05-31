@@ -14,7 +14,7 @@ function App() {
     </div>
     <main>
       <h2 className='container-fluid'><u>Our latest games</u></h2>
-      <ItemListContainer/>
+      <ItemListContainer greeting="Soon you'll see the best games we have to offer :)"/>
     </main>
     </>;
 }
