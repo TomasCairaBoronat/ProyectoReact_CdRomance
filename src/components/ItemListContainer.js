@@ -1,7 +1,7 @@
 import '../styles/ItemListContainer.css'
-const ItemListContainer = (props) => {
+const ItemListContainer = ({greeting}) => {
     return(
-        <h3 className='tba'>{props.greeting}</h3>
+        <h3 className='tba'>{greeting}</h3>
     )
 }
 export default ItemListContainer
