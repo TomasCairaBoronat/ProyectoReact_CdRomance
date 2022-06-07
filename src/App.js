@@ -5,7 +5,7 @@ function App() {
   return( 
     <>
       <NavBar/>
-      <div className="App">
+      <div className="header">
         <header className="App-header">
           <h1>Cd Romance</h1>
           <p>
