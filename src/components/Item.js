@@ -12,7 +12,7 @@ const Item = ({item}) => {
       <p className="card-text" >{item.description}</p>
 
         <div className='precio'>
-            <p className="card-text euro"><strong className='mx-0'><span >{item.price}</span>€</strong></p>
+            <p className="card-text euro"><strong><span >{item.price}</span>€</strong></p>
             <ItemCount stock={item.stock} initial={1}/>
         </div>
 
