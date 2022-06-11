@@ -6,29 +6,29 @@ function ItemCount({stock,initial}){
 
             setCount(count + 1)
             
-        }
-    }
+        };
+    };
     const minus = () => {
         if (count > initial){
 
             setCount(count - 1)
 
-        }
-    }
+        };
+    };
     const onAdd = () => {
-        console.log(count)
-    }
+        console.log("Agregado X " + count)
+    };
     return(
         <div className="container">
             <div className="mx-4 mb-3">
 
-            <input onClick={minus} type="button" value="-" />
+            <input  onClick={minus} type="button" value="-" />
             <span>{count}</span>
-            <input onClick={add} type="button" value="+" />
+            <input  onClick={add} type="button" value="+" />
             </div>
-            <input onClick={onAdd} className='mb-3' type="button" value="Agregar al carrito" />
+            <input  onClick={onAdd} className='mb-3 mt-2' type="button" value="Agregar al carrito" />
 
         </div>
-    )
-}
-export default ItemCount
+    );
+};
+export default ItemCount;

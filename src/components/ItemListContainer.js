@@ -1,11 +1,24 @@
+import React,{useState,useEffect} from 'react'
 import '../styles/ItemListContainer.css'
-import ItemCount from './ItemCount.js'
-const ItemListContainer = (props) => {
+import gamesData from './gamesData.json'
+import ItemList from './ItemList'
+const ItemListContainer = () => {
+    const [gameData,setGameData] = useState([]);
+    useEffect( ()=>{
+        const bringGames = new Promise ((res,rej)=>{
+            setTimeout(()=>{
+                res(gamesData)
+            },2000);
+        });
+        bringGames.then((res) =>{
+            setGameData(res)
+        });
+
+    },[]);
     return(
         <>
-        <h3 className='tba'>{props.greeting}</h3>
-        <ItemCount stock={10} initial={1}/>
+        <ItemList items={gameData}/>
         </>
-    )
-}
-export default ItemListContainer
+    );
+};
+export default ItemListContainer;

@@ -3,7 +3,7 @@ const NavLinks = (props) => {
     <li className="nav-item">
         <a className="nav-link active" href={props.hrefA}>{props.title}</a>
     </li>
-  )
-}
+  );
+};
 
-export default NavLinks
+export default NavLinks;

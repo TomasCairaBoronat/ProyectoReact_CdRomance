@@ -13,12 +13,13 @@ function App() {
           </p>
         </header>
       </div>
+      <hr/>
       <main>
         <h2 className='container-fluid'><u>Our latest games</u></h2>
         <ItemListContainer greeting="Soon you'll see the best games we have to offer :)"/>
       </main>
     </>
-  )
-}
+  );
+};
 
 export default App;

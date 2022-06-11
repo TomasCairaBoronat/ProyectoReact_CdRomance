@@ -11,6 +11,6 @@ function CartWidget(){
           </a>
         </li>
       </ul>
-  )
-}
+  );
+};
 export default CartWidget;

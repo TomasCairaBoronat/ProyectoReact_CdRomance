@@ -1,0 +1,32 @@
+[{
+    "id": 1,
+    "title": "Metal Gear Solid (PS1)",
+    "description": "Metal Gear Solid is a Action-Adventure/Stealth video game published by Konami released on February 26th, 1999 for the Sony PlayStation.",
+    "price": 40,
+    "stock": 10,
+    "image": "./images/game1.jpg"
+},
+{
+    "id": 2,
+    "title": "Luigi's Mansion (Game Cube)",
+    "description": "Luigi's Mansion is a Action-Adventure video game published by N released on May 3rd, 2002 for the Gamecube.",
+    "price": 35,
+    "stock": 15,
+    "image": "./images/game2.jpg"
+},
+{
+    "id": 3,
+    "title": "Dino Crisis (PS1)",
+    "description": "Dino Crisis is a Survival Horror video game published by Capcom released on October 29th, 1999 for the Sony PlayStation.",
+    "price": 25,
+    "stock": 5,
+    "image": "./images/game3.jpg"
+},
+{
+    "id": 4,
+    "title": "Persona 2: Eternal Punishment (PS1)",
+    "description": "Persona 2: Eternal Punishment is a RPG video game published by Atlus released on June 24th, 1999 for the Sony PlayStation.",
+    "price": 40,
+    "stock": 6,
+    "image": "./images/game4.jpg"
+}]
