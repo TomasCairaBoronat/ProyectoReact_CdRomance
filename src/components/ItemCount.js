@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-function ItemCount({stock,initial}){
+function ItemCount({stock,initial,item}){
     const [count,setCount] = useState(initial)
     const add = () => {
         if(count < stock){
@@ -16,7 +16,7 @@ function ItemCount({stock,initial}){
         };
     };
     const onAdd = () => {
-        console.log("Agregado X " + count)
+        console.log("Added "+ item.title + " X " + count)
     };
     return(
         <div className="container">
@@ -26,7 +26,7 @@ function ItemCount({stock,initial}){
             <span>{count}</span>
             <input className="mx-1"  onClick={add} type="button" value="+" />
             </div>
-            <input className='mb-3 mt-2' onClick={onAdd} type="button" value="Agregar al carrito" />
+            <input className='mb-3 mt-2' onClick={onAdd} type="button" value="Add to cart" />
 
         </div>
     );
