@@ -22,11 +22,11 @@ function ItemCount({stock,initial}){
         <div className="container">
             <div className="mx-4 mb-3">
 
-            <input  onClick={minus} type="button" value="-" />
+            <input className="mx-1" onClick={minus} type="button" value="-" />
             <span>{count}</span>
-            <input  onClick={add} type="button" value="+" />
+            <input className="mx-1"  onClick={add} type="button" value="+" />
             </div>
-            <input  onClick={onAdd} className='mb-3 mt-2' type="button" value="Agregar al carrito" />
+            <input className='mb-3 mt-2' onClick={onAdd} type="button" value="Agregar al carrito" />
 
         </div>
     );
