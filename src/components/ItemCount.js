@@ -26,7 +26,7 @@ function ItemCount({stock,initial,item}){
             <span>{count}</span>
             <input className="mx-1"  onClick={add} type="button" value="+" />
             </div>
-            <input className='mb-3 mt-2' onClick={onAdd} type="button" value="Add to cart" />
+            <input className='mb-3 mt-2 mx-2' onClick={onAdd} type="button" value="Add to cart" />
 
         </div>
     );
