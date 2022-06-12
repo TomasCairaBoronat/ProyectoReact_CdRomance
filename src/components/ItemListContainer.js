@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 import '../styles/ItemListContainer.css'
-import gamesData from './gamesData.json'
+import gamesData from '../json/gamesData.json'
 import ItemList from './ItemList'
 const ItemListContainer = () => {
     const [gameData,setGameData] = useState([]);
