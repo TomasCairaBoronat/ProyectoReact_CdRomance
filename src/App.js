@@ -1,6 +1,7 @@
 import './styles/App.css';
 import NavBar from './components/NavBar.js';
 import ItemListContainer from './components/ItemListContainer.js'
+import ItemDetailContainer from './components/ItemDetailContainer';
 function App() {
   return( 
     <>
@@ -17,6 +18,8 @@ function App() {
       <main>
         <h2 className='container-fluid'><u>Our latest games</u></h2>
         <ItemListContainer/>
+        <hr/>
+        <ItemDetailContainer/>
       </main>
     </>
   );

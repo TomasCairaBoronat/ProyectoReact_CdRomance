@@ -2,6 +2,7 @@
     "id": 1,
     "title": "Metal Gear Solid (PS1)",
     "description": "Metal Gear Solid is a Action-Adventure/Stealth video game published by Konami released on February 26th, 1999 for the Sony PlayStation.",
+    "fullDescription":"Metal Gear Solid is a 3D stealth action title created by Hideo Kojima and Konami for the PS1. This title resumes the exploits of Solid Snake, a master of infiltration, espionage, and combat. Snake’s former unit, FOXHOUND, has gone rogue and taken over a U.S. military base in the Aleutian islands, demanding a billion dollars and the remains of Big Boss in exchange for the base. Only Solid Snake is skilled enough to take back the base and must do so alone. The object of the game is to avoid combat by sneaking, uncover the secrets of FOXHOUND, and defeat the unit’s leaders. Players can duck behind walls, crawl into vents, and even hide in boxes to avoid being seen. The base will go into alert if an enemy soldier spots Snake and backup will arrive, which can prove deadly. Along the way players will find guns, rations, hand grenades, and even rocket launchers to help them combat the enemy. Metal Gear solid includes several difficulty levels and a save feature.",
     "price": 40,
     "stock": 10,
     "image": "./images/game1.jpg"
