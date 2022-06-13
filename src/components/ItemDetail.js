@@ -4,10 +4,10 @@ import '../styles/items.css'
 const ItemDetail = ({item}) => {
     return <div className='container mb-3' >
     <div className='row'>
-        <div className='col-md-6'>
-            <img src={item.image} className=" mx-5" style={{height:600, width:500}}  alt={item.title}/>
+        <div className='col-lg-6 colPic1'>
+            <img src={item.image}  style={{height:400, width:400}}  alt={item.title}/>
         </div>
-        <div className='col-md-6 colPrice'>
+        <div className='col-lg-6 colPrice'>
             <p ><strong>{item.title}</strong></p>
 
             <p>{item.fullDescription}</p>

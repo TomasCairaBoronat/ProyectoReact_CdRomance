@@ -21,9 +21,10 @@ const ItemListContainer = () => {
 
     },[]);
     return(
-        <>
+        <div> 
+
         <ItemList items={gameData}/>
-        </>
+        </div>
     );
 };
 export default ItemListContainer;
