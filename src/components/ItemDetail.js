@@ -10,7 +10,7 @@ const ItemDetail = ({item}) => {
         <div className='col-lg-6 colPrice'>
             <p ><strong>{item.title}</strong></p>
 
-            <p>{item.fullDescription}</p>
+            <p>{item.description}</p>
 
             <div className='precio'>
                 <p className="euro"><strong><span >{item.price}</span>€</strong></p>

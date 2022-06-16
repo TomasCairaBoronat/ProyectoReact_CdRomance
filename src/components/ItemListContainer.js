@@ -2,6 +2,7 @@ import React,{useState,useEffect} from 'react'
 import '../styles/ItemListContainer.css'
 import gamesData from '../json/gamesData.json'
 import ItemList from './ItemList'
+import ItemDetailContainer from './ItemDetailContainer';
 const ItemListContainer = () => {
     const [gameData,setGameData] = useState([]);
     useEffect( ()=>{
@@ -21,9 +22,9 @@ const ItemListContainer = () => {
 
     },[]);
     return(
-        <div> 
-
-        <ItemList items={gameData}/>
+        <div>
+            <ItemList items={gameData}/>
+            <ItemDetailContainer/>
         </div>
     );
 };

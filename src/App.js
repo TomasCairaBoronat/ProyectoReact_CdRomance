@@ -2,26 +2,21 @@ import './styles/App.css';
 import NavBar from './components/NavBar.js';
 import ItemListContainer from './components/ItemListContainer.js'
 import ItemDetailContainer from './components/ItemDetailContainer';
+import {BrowserRouter,Route,Routes} from 'react-router-dom'
+import Index from './components/index';
 function App() {
   return( 
-    <>
+    <BrowserRouter>
       <NavBar/>
-      <div className="header">
-        <header className="App-header">
-          <h1>Cd Romance</h1>
-          <p>
-            The best place for your retro gaming needs!
-          </p>
-        </header>
-      </div>
-      <hr/>
       <main>
-        <h2 className='container-fluid'><u>Our latest games</u></h2>
-        <ItemListContainer/>
-        <hr/>
-        <ItemDetailContainer/>
+        <Routes>
+          <Route path='/' element={<Index/>}/>
+        </Routes>
+        <Routes>
+          <Route path='/categories' element={<ItemListContainer/>}/>
+        </Routes>
       </main>
-    </>
+    </BrowserRouter>
   );
 };
 

@@ -1,6 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import gamesData from '../json/gamesData.json'
 import ItemDetail from './ItemDetail';
+import {useParams} from 'react-router-dom'
 const ItemDetailContainer = () => {
     const [gameData,setGameData] = useState([]);
     useEffect( ()=>{
