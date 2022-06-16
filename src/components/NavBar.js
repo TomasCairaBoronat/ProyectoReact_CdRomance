@@ -1,12 +1,12 @@
 import NavLogo from '../images/logo.png';
 import CartWidget from './CartWidget.js';
 import '../styles/nav-bar.css';
-import {NavLink} from 'react-router-dom'
+import {Link, NavLink} from 'react-router-dom'
 function NavBar() {
     return(
       <nav className="navbar navbar-expand-lg bg-light">
         <div className="container-fluid">
-        <a className="navbar-brand" href="/"><img src={NavLogo} id="logoNav" alt='logo of CD Romance'/></a>
+        <Link className="navbar-brand" to="/"><img src={NavLogo} id="logoNav" alt='logo of CD Romance'/></Link>
           <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span className="navbar-toggler-icon"></span>
           </button>
@@ -16,10 +16,10 @@ function NavBar() {
                 <NavLink to='/' className="nav-link active">Home</NavLink>
               </li>
               <li>
-                <NavLink to='/categories' className="nav-link active">Categories</NavLink>
+                <NavLink to='/games' className="nav-link active">Games</NavLink>
               </li>
               <li>
-                <NavLink to='#' className="nav-link active">Contact</NavLink>
+                <NavLink to='/contact' className="nav-link active">Contact</NavLink>
               </li>
             </ul>
             <CartWidget/>

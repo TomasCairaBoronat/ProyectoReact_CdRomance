@@ -5,29 +5,32 @@
     "fullDescription":"Metal Gear Solid is a 3D stealth action title created by Hideo Kojima and Konami for the PS1. This title resumes the exploits of Solid Snake, a master of infiltration, espionage, and combat. Snake’s former unit, FOXHOUND, has gone rogue and taken over a U.S. military base in the Aleutian islands, demanding a billion dollars and the remains of Big Boss in exchange for the base. Only Solid Snake is skilled enough to take back the base and must do so alone. The object of the game is to avoid combat by sneaking, uncover the secrets of FOXHOUND, and defeat the unit’s leaders. Players can duck behind walls, crawl into vents, and even hide in boxes to avoid being seen. The base will go into alert if an enemy soldier spots Snake and backup will arrive, which can prove deadly. Along the way players will find guns, rations, hand grenades, and even rocket launchers to help them combat the enemy. Metal Gear solid includes several difficulty levels and a save feature.",
     "price": 40,
     "stock": 10,
-    "image": "./images/game1.jpg"
+    "image": "../images/game1.jpg"
 },
 {
     "id": 2,
     "title": "Luigi's Mansion (Game Cube)",
     "description": "Luigi's Mansion is a Action-Adventure video game published by Nintendo released on May 3rd, 2002 for the Gamecube.",
+    "fullDescription":"Luigi's Mansion is a 2001 action-adventure video game developed and published by Nintendo for the GameCube. The game was a launch title for the GameCube and was the first game in the Mario franchise to be released for the console; it was released in Japan on September 14, 2001, in North America on November 18, 2001, in Europe on May 3, 2002, and in Australia on May 17, 2002.",
     "price": 35,
     "stock": 15,
-    "image": "./images/game2.jpg"
+    "image": "../images/game2.jpg"
 },
 {
     "id": 3,
     "title": "Dino Crisis (PS1)",
     "description": "Dino Crisis is a Survival Horror video game published by Capcom released on October 29th, 1999 for the Sony PlayStation.",
+    "fullDescription":"Raw instinct takes over in this adrenaline-pumping journey into Survival Horror. Something is terribly wrong. Your covert mission to inflitrate an isolated, research compound, has gon haywire... now you find yourself pursued by a relentless, pre-historic terror. Suddenly, your mission becomes a desperate fight for survivalRaw instinct takes over in this adrenaline-pumping journey into Survival Horror. Something is terribly wrong. Your covert mission to inflitrate an isolated, research compound, has gon haywire... now you find yourself pursued by a relentless, pre-historic terror. Suddenly, your mission becomes a desperate fight for survival.",
     "price": 25,
     "stock": 5,
-    "image": "./images/game3.jpg"
+    "image": "../images/game3.jpg"
 },
 {
     "id": 4,
     "title": "Persona 2: Eternal Punishment (PS1)",
     "description": "Persona 2: Eternal Punishment is a RPG video game published by Atlus released on June 24th, 1999 for the Sony PlayStation.",
+    "fullDescription":"Welcome back to the twisted world of Persona, where nightmares become reality and reality becomes a nightmare... Over 50 hours of dark twisted gameplay, plus stunning anime cinematics that absorb you into the intriguing world of Persona! Enlist the help of the nightmarish denizens of Persona through the use of the unique ''Contact System!'' Unleash total devastation by combining over 80 Persona to defeat the minions of evil. Change the fate of your characters by employing the revolutionary ''Rumor System''.",
     "price": 40,
     "stock": 6,
-    "image": "./images/game4.jpg"
+    "image": "../images/game4.jpg"
 }]

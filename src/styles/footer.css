@@ -1,0 +1,27 @@
+.footerGrid {
+    background-color: rgb(248, 248, 248);
+    display: grid;
+    grid-template-areas: "logoFooter derechosFooter contactosFooter ";
+    color: black; }
+    .footerGrid .tC {
+      color: black; }
+  
+  .footerGrid .logoFooter {
+    grid-area: logoFooter; }
+  
+  .footerGrid .derechosFooter {
+    grid-area: derechosFooter; }
+  
+  .footerGrid .contactosFooter {
+    grid-area: contactosFooter; }
+  
+  .footerGrid .nombreFooter:hover {
+    color: gray; }
+  
+  .footerGrid .nombreFooter2:hover {
+    color: #808080; }
+#contact{
+    margin-top: 10%;
+    margin-bottom: 12%;
+}
+  

@@ -1,0 +1,10 @@
+.text{
+    text-decoration: none;
+    color: black;
+}
+.text:hover{
+    color: rgb(77, 76, 76);
+}
+ul li{
+    list-style-type: none;
+}

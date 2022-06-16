@@ -2,7 +2,7 @@ import React from 'react'
 import ItemCount from './ItemCount'
 import '../styles/items.css'
 const ItemDetail = ({item}) => {
-    return <div className='container mb-3' >
+    return <div className='container mb-5' >
     <div className='row'>
         <div className='col-lg-6 colPic1'>
             <img src={item.image}  style={{height:400, width:400}}  alt={item.title}/>

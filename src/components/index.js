@@ -1,6 +1,5 @@
 import React from 'react'
 import ItemListContainer from './ItemListContainer'
-
 const Index = () => {
   return (<>
     <div className="header">

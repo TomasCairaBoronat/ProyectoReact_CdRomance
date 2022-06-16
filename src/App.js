@@ -1,9 +1,11 @@
 import './styles/App.css';
 import NavBar from './components/NavBar.js';
-import ItemListContainer from './components/ItemListContainer.js'
 import ItemDetailContainer from './components/ItemDetailContainer';
 import {BrowserRouter,Route,Routes} from 'react-router-dom'
 import Index from './components/index';
+import GamesCategory from './components/gamesCategory.js';
+import Contact from './components/Contact';
+import Footer from './components/Footer';
 function App() {
   return( 
     <BrowserRouter>
@@ -11,11 +13,12 @@ function App() {
       <main>
         <Routes>
           <Route path='/' element={<Index/>}/>
-        </Routes>
-        <Routes>
-          <Route path='/categories' element={<ItemListContainer/>}/>
+          <Route path='/games' element={<GamesCategory/>}/>
+          <Route path='/game/:gameId' element={<ItemDetailContainer/>}/>
+          <Route path='/contact' element={<Contact/>}/>
         </Routes>
       </main>
+      <Footer/>
     </BrowserRouter>
   );
 };
