@@ -16,12 +16,20 @@ function NavBar() {
                 <NavLink to='/' className="nav-link active">Home</NavLink>
               </li>
               <li>
-                <NavLink to='/games' className="nav-link active">Games</NavLink>
+                <NavLink to='/contact' className="nav-link active ">Contact</NavLink>
               </li>
-              <li>
-                <NavLink to='/contact' className="nav-link active">Contact</NavLink>
+              <li className='nav-item dropdown'>
+                <NavLink className="nav-link active dropdown-toggle" to="/games" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Games
+                </NavLink>
+                <ul className="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><NavLink to='/games' className="nav-link active " >All games</NavLink></li>
+                  <li><NavLink to='/games/PS1' className="nav-link active " >PS1</NavLink></li>
+                  <li><NavLink to='/games/Game-Cube' className="nav-link active ">Game Cube</NavLink></li>
+                </ul>
               </li>
             </ul>
+
             <CartWidget/>
           </div>
         </div>

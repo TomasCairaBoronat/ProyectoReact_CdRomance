@@ -6,6 +6,8 @@ import Index from './components/index';
 import GamesCategory from './components/gamesCategory.js';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
+import GamesConsoles from './components/GamesConsoles';
+;
 function App() {
   return( 
     <BrowserRouter>
@@ -14,6 +16,7 @@ function App() {
         <Routes>
           <Route path='/' element={<Index/>}/>
           <Route path='/games' element={<GamesCategory/>}/>
+          <Route path='/games/:gameConsole' element={<GamesConsoles/>}/>
           <Route path='/game/:gameId' element={<ItemDetailContainer/>}/>
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
