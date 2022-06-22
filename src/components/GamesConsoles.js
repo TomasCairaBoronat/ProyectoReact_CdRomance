@@ -2,8 +2,6 @@ import React,{useState,useEffect} from 'react'
 import gamesData from '../json/gamesData.json'
 import {useParams} from 'react-router-dom'
 import ItemListContainer from './ItemListContainer';
-import ItemList from './ItemList';
-import ConsoleList from './ConsoleList';
 const GamesConsoles = () => {
     const [consoleData,setGameData] = useState([]);
     const {gameConsole} = useParams();
@@ -28,7 +26,7 @@ const GamesConsoles = () => {
     },[gameConsole]);
   return (
     <div className='row list'>
-                <ConsoleList console={consoleData}/>
+                <ItemListContainer items={consoleData}/>
     </div>
   )
 }
