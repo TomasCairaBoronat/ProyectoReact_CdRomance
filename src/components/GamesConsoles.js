@@ -4,14 +4,10 @@ import {useParams} from 'react-router-dom'
 import ItemListContainer from './ItemListContainer';
 const GamesConsoles = () => {
     const [consoleData,setGameData] = useState([]);
-    const {gameConsole} = useParams();
     useEffect( ()=>{
         const bringGame = new Promise ((res,rej)=>{
             setTimeout(()=>{ 
-                const ConsoleFound = gamesData.find(game =>{
-                return game.console === gameConsole
-            })
-                res(ConsoleFound)
+                res(gamesData)
                 rej("There's been an error loading the data")
             },2000);
             

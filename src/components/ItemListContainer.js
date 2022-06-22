@@ -2,8 +2,10 @@ import React,{useState,useEffect} from 'react'
 import '../styles/ItemListContainer.css'
 import gamesData from '../json/gamesData.json'
 import ItemList from './ItemList'
+import { useParams } from 'react-router-dom';
 const ItemListContainer = () => {
     const [gameData,setGameData] = useState([]);
+    const{consoleId} = useParams();
     useEffect( ()=>{
         const bringGames = new Promise ((res,rej)=>{
             setTimeout(()=>{
@@ -19,9 +21,18 @@ const ItemListContainer = () => {
             console.error(rej)
         });
 
-    },[]);
+    },[consoleId]);
     return(
         <div>
+        <div className="header">
+                <header className="App-header">
+                <h1>Cd Romance</h1>
+                <p>
+                    The best place for your retro gaming needs!
+                </p>
+                </header>
+      </div>
+            <hr/>
             <ItemList items={gameData}/>
         </div>
     );

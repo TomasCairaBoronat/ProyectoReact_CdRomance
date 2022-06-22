@@ -1,22 +1,21 @@
 import './styles/App.css';
 import NavBar from './components/NavBar.js';
 import ItemDetailContainer from './components/ItemDetailContainer';
-import {BrowserRouter,Route,Routes} from 'react-router-dom'
-import Index from './components/index';
+import {BrowserRouter,Route,Routes} from 'react-router-dom';
 import GamesCategory from './components/gamesCategory.js';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import GamesConsoles from './components/GamesConsoles';
-;
+import ItemListContainer from './components/ItemListContainer';
 function App() {
   return( 
     <BrowserRouter>
       <NavBar/>
       <main>
+      
         <Routes>
-          <Route path='/' element={<Index/>}/>
+          <Route path='/' element={<ItemListContainer/>}/>
           <Route path='/games' element={<GamesCategory/>}/>
-          <Route path='/games/:gameConsole' element={<GamesConsoles/>}/>
+          <Route path='/games/:consoleId' element={<ItemListContainer/>}/>
           <Route path='/game/:gameId' element={<ItemDetailContainer/>}/>
           <Route path='/contact' element={<Contact/>}/>
         </Routes>
